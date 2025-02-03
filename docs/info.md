@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+Danger! Self destructing design! Remove analog supply resistor before enabling or you will fry the digital design.
 
 ## How to test
 
-Explain how to use your project
+Connect a variable PSU to the disconnected analog supply and see what happens.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+PSU
