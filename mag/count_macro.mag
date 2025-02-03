@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1738600851
+timestamp 1738603755
 << viali >>
 rect 4905 2941 4939 2975
 rect 5181 2941 5215 2975
@@ -7064,7 +7064,7 @@ rlabel metal1 s 1702 646 1702 646 4 count[0]
 rlabel metal1 s 2484 782 2484 782 4 count[1]
 rlabel metal1 s 4738 646 4738 646 4 count[2]
 rlabel metal2 s 5842 2074 5842 2074 4 count[3]
-rlabel metal2 s 9154 568 9154 568 4 n_rst
+rlabel metal2 s 9154 568 9154 568 4 n_reset
 rlabel metal2 s 8878 1190 8878 1190 4 net1
 rlabel metal1 s 7360 1462 7360 1462 4 net2
 rlabel metal2 s 6762 1156 6762 1156 4 net3
@@ -7099,11 +7099,11 @@ flabel metal2 s 4158 0 4214 400 0 FreeSans 280 90 0 0 count[2]
 port 6 nsew
 flabel metal2 s 5814 0 5870 400 0 FreeSans 280 90 0 0 count[3]
 port 7 nsew
-flabel metal2 s 9126 0 9182 400 0 FreeSans 280 90 0 0 n_rst
+flabel metal2 s 9126 0 9182 400 0 FreeSans 280 90 0 0 n_reset
 port 8 nsew
 << properties >>
 string FIXED_BBOX 0 0 10000 10000
-string GDS_END 242986
+string GDS_END 242990
 string GDS_FILE ../gds/count_macro.gds
 string GDS_START 113546
 << end >>

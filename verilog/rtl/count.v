@@ -1,7 +1,7 @@
 `default_nettype none
 module count_macro (
     input wire clk,                 // expect a 10M clock
-    input wire n_rst,
+    input wire n_reset,
     output wire [3:0] count        // 8 bit out to the R2R DAC
     );
 
@@ -15,8 +15,8 @@ module count_macro (
     end
 
     // reset handling
-    always @(posedge clk or posedge n_rst) begin
-        if(n_rst)
+    always @(posedge clk or posedge n_reset) begin
+        if(n_reset)
             rst <= 1'b0;
         else 
             rst <= 1'b1;

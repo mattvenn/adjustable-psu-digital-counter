@@ -1,12 +1,12 @@
 module count_macro (VGND,
     VPWR,
     clk,
-    n_rst,
+    n_reset,
     count);
  input VGND;
  input VPWR;
  input clk;
- input n_rst;
+ input n_reset;
  output [3:0] count;
 
  wire _00_;
@@ -944,7 +944,7 @@ module count_macro (VGND,
     .VPB(VPWR),
     .VPWR(VPWR),
     .X(net7));
- sky130_fd_sc_hd__clkbuf_1 input1 (.A(n_rst),
+ sky130_fd_sc_hd__clkbuf_1 input1 (.A(n_reset),
     .VGND(VGND),
     .VNB(VGND),
     .VPB(VPWR),
